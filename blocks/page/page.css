@@ -1,0 +1,25 @@
+.page {
+  font-family: 'Merriweather', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  margin: 0;
+  color: #313131;
+  padding: 0;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  justify-content: center;
+}
+  
+.page__container {
+  padding: 0;
+  margin: 0;
+  max-width: 1920px;
+  width: 100%;
+  box-sizing: border-box;
+}
+  
+.page__header {
+  padding: 0;
+  margin: 0 auto;
+}
+

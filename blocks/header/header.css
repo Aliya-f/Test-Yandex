@@ -1,0 +1,140 @@
+.header {
+  min-height: 700px;
+  background-position: center;
+  background-image: url(../../images/bg-header.png);
+  background-size: cover;
+  z-index: 0;
+
+}
+
+.header__container {
+  max-width: 1366px;
+  margin: 0 auto;
+  padding-left: 72px;
+  padding-top: 26px;
+  max-height: 700px;
+
+}
+  
+.header__logo {
+  max-width: 245.17px;
+  max-height: 36px;
+  
+}
+  
+.header__content {
+  max-width: 542px;
+  color: #313131;
+  margin-top: 62px;
+  
+}
+
+.header__title {
+  font-family: 'Merriweather', 'Arial', 'Helvetica', sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 66px;
+  margin: 0;
+}
+
+.header__text{
+  font-family: 'Golos Text', 'Arial', 'Helvetica', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23.4px;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+.header__nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.header__nav-link {
+  text-decoration: none;
+  font-family: 'Golos Text', 'Arial', 'Helvetica', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0.7;
+  text-align: center;
+  padding: 20px 49px;
+  max-width: 263px;
+  max-height: 72px;
+  width: 100%;
+  height: 100%;
+  border-radius: 66px;
+  border: 0;
+  margin: 0;
+  background-color: 
+  #1F1F1F;
+  color: white;
+  cursor: pointer;
+}
+
+.header__nav-link:hover {
+  background-color: 
+  #FBCE51;
+  color: #1F1F1F;
+  
+}
+
+.header__nav-link:last-of-type {
+  background-color: 
+  transparent;
+  color: #1F1F1F;
+  border: #1F1F1F solid 2px;
+}
+
+.header__nav-link:last-of-type:hover {
+  background-color: 
+  #1F1F1F;
+  color: white;
+}
+
+@media (max-width: 1267px) {
+  .header__container {
+    padding-left: 20px;
+    padding-top: 18px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .header__content {
+    margin-top: 40px;
+  }
+  .header__logo {
+    max-width: 213px;
+    max-height: 32px;
+  }
+  .header__text{
+    margin-bottom: 32px;
+  }
+} 
+
+@media (max-width: 960px) {
+  .header__content {
+    max-width: 335px;
+  }
+  .header__title {
+    font-size: 36px;
+    line-height: 39.6px;
+  }
+  .header__text{
+    text-align: left;
+  }
+  .header__nav-links {
+    flex-direction: column;
+    gap: 14px;
+  }
+  .header__nav-link {
+    font-size: 16px;
+    line-height: 0.7;
+    padding: 18px 0;
+    max-height: 47px;
+    max-width: 100%;
+  }
+} 

@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 40px 72px 72px;
+  background-color: 
+  #E9DED4;
+}
+
+.footer__discription {
+  font-family: 'Golos Text', 'Arial', 'Helvetica', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.2px;
+  opacity: 0.6;
+}
+
+@media (max-width: 1267px) {
+  .footer {
+    padding: 40px 20px 72px;
+  }
+}
+
+@media (max-width: 690px) {
+  .footer {
+    padding: 40px 20px 60px;
+  }
+}
