@@ -1,10 +1,15 @@
 .header {
-  min-height: 700px;
-  background-position: center;
-  background-image: url(../../images/bg-header.png);
-  background-size: cover;
-  z-index: 0;
+  height: 700px;
+  background-color: #E9DED4;
+	background-blend-mode: color-burn;
+	background-image: url(../../images/bg-mramor.png);
 
+}
+
+.header__bg {
+  background-image: url(../../images/headerImg.png);
+	background-position: top;
+	background-repeat: no-repeat;
 }
 
 .header__container {
@@ -12,7 +17,7 @@
   margin: 0 auto;
   padding-left: 72px;
   padding-top: 26px;
-  max-height: 700px;
+  height: 700px;
 
 }
   
@@ -138,3 +143,19 @@
     max-width: 100%;
   }
 } 
+
+@media (max-width: 650px) {
+  .header {
+    height: 812px;
+  }
+  .header__container {
+    /* max-width: 335px; */
+    height: 812px;
+  }
+
+  .header__bg {
+    height: 812px;
+    background-position: 75% bottom;
+    background-size: 283%;
+  }
+}
